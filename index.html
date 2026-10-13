@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>pixivision 眼妆图谱</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="graph"></div>
+<header id="bar">
+  <div class="brand">眼妆图谱 <small>pixivision 标签 × 眼妆插画</small></div>
+  <div class="searchwrap"><input id="q" type="search" placeholder="搜索标签 / 作品 / 画师…" autocomplete="off"><ul id="sugg"></ul></div>
+  <button id="ftoggle" title="筛选">筛选</button>
+</header>
+<div id="filters" class="hidden"></div>
+<aside id="panel" class="hidden"><button id="close" aria-label="关闭">×</button><div id="pbody"></div></aside>
+<div id="legend"></div>
+<footer id="credit">图片 © 原画师（pixiv）· 数据整理自 pixivision · 仅供个人学习演示 · 链接以纯文本显示</footer>
+<script src="lib/force-graph.min.js"></script>
+<script src="data/graph.js"></script>
+<script src="app.js"></script>
+</body></html>
